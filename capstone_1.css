@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	background-color: lightgray;
+	scroll-behavior: smooth;
+}
+nav{
+	background-color: gray;
+	color: white;
+}
+.top{
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+
+}
+.nav-link{
+	float: right;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 2;
+	padding-right: 2;
+}
+h1{
+	display: inline-block;
+	align-content: center;
+	justify-content: center;
+	font-family: arial;
+}
+#webDev{
+	height: 400px;
+	width: 400px;
+}
+#intro{
+	background-color: lightgray;
+}
+
+
+
