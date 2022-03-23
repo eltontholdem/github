@@ -3,6 +3,12 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	background-image: url(./images/johannes-plenio.jpg);
+}
+#background{
+	background-size: 100%;
+}
 html{
 	background-color: lightgray;
 	scroll-behavior: smooth;
@@ -17,22 +23,28 @@ nav{
 	display: inline-block;
 
 }
+#banner{
+	background-image: url(https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	/*stretch the image*/
+	background-size: cover;
+	/*selects the part of the background image that will used for the cover*/
+	background-position: center;
+}
+
 .nav-link{
 	float: right;
 	display: inline-block;
 	color: white;
-	text-align: center;
 	font-weight: bold;
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-left: 2;
-	padding-right: 2;
 }
 h1{
 	display: inline-block;
 	align-content: center;
 	justify-content: center;
 	font-family: arial;
+}
+.center{
+	text-align: center;
 }
 #webDev{
 	height: 400px;
